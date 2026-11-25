@@ -1,4 +1,4 @@
-# OpenWebCam 📹
+# ViuCam
 
 An open-source, high-definition Android webcam streaming app designed to stream your phone's camera feed directly to **OBS Studio**, **VLC**, or any web browser over **Wi-Fi** or **USB**.
 
@@ -70,14 +70,14 @@ From this dashboard, you can:
 
 ### Method A: With Android Studio (Recommended)
 1. Launch **Android Studio**.
-2. Click **File** ➔ **Open...** and select the `OpenWebCam` directory (`C:\Users\ashis\Downloads\Droidcam\OpenWebCam`).
+2. Click **File** ➔ **Open...** and select the cloned `ViuCam` project folder.
 3. Connect your Android phone via USB (with USB debugging enabled) or start an emulator.
 4. Click the green **Run (▶)** button in Android Studio.
 
 ### Method B: Build APK via Command Line
 If you have Gradle or Android Studio's SDK configured:
 ```powershell
-cd C:\Users\ashis\Downloads\Droidcam\OpenWebCam
+cd ViuCam
 # If using gradle wrapper in project root:
 .\gradlew assembleDebug
 ```

@@ -178,7 +178,7 @@ class MjpegServer(
 
                     val header = (
                         "HTTP/1.1 200 OK\r\n" +
-                        "Server: OpenWebCam\r\n" +
+                        "Server: ViuCam\r\n" +
                         "Connection: close\r\n" +
                         "Cache-Control: no-cache, no-store, must-revalidate\r\n" +
                         "Pragma: no-cache\r\n" +
@@ -199,7 +199,7 @@ class MjpegServer(
                     if (frame != null) {
                         val header = (
                             "HTTP/1.1 200 OK\r\n" +
-                            "Server: OpenWebCam\r\n" +
+                            "Server: ViuCam\r\n" +
                             "Content-Type: image/jpeg\r\n" +
                             "Content-Length: ${frame.size}\r\n" +
                             "Access-Control-Allow-Origin: *\r\n" +
@@ -241,7 +241,7 @@ class MjpegServer(
                     val htmlBytes = html.toByteArray(Charsets.UTF_8)
                     val header = (
                         "HTTP/1.1 200 OK\r\n" +
-                        "Server: OpenWebCam\r\n" +
+                        "Server: ViuCam\r\n" +
                         "Content-Type: text/html; charset=UTF-8\r\n" +
                         "Content-Length: ${htmlBytes.size}\r\n" +
                         "Connection: close\r\n\r\n"
@@ -270,7 +270,7 @@ class MjpegServer(
         val bytes = json.toByteArray(Charsets.UTF_8)
         val header = (
             "HTTP/1.1 200 OK\r\n" +
-            "Server: OpenWebCam\r\n" +
+            "Server: ViuCam\r\n" +
             "Content-Type: application/json\r\n" +
             "Content-Length: ${bytes.size}\r\n" +
             "Access-Control-Allow-Origin: *\r\n" +
