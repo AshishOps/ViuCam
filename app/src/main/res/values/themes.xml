@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.OpenWebCam" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/accent_cobalt</item>
+        <item name="colorSurface">@color/surface_panel</item>
+        <item name="android:statusBarColor">@color/bg_chassis</item>
+        <item name="android:navigationBarColor">@color/bg_chassis</item>
+        <item name="android:windowBackground">@color/bg_chassis</item>
+    </style>
+</resources>
